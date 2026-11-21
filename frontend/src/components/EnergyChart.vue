@@ -84,7 +84,7 @@ export default {
   },
   mounted() {
     // Fetch the external JSON file from the public folder when the component loads
-    fetch('/data/energy_data.json') // <----- directory location
+    fetch('frontend/public/data/energy_data.json') // <----- directory location
       .then((response) => response.json())
       .then((data) => {
         this.buildings = data.buildings

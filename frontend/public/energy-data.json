@@ -1,0 +1,7 @@
+{
+  "service_location": "",
+  "metrics": [
+    { "month": "January", "kwh": 0, "amount": 504.00 },
+    { "month": "February", "kwh": 3900, "amount": 468.00 }
+  ]
+}
