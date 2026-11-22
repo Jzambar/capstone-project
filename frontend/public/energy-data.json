@@ -1,7 +1,61 @@
-{
-  "service_location": "",
-  "metrics": [
-    { "month": "January", "kwh": 0, "amount": 504.00 },
-    { "month": "February", "kwh": 3900, "amount": 468.00 }
-  ]
-}
+[
+  {
+    "id": "0123456",
+    "account": "ACC-1001",
+    "service_location": "1370 Windwood st.",
+    "metrics": [
+      {
+        "prev_read_date": "2026-01-05",
+        "curr_read_date": "2026-02-04",
+        "kwh": 3900,
+        "amount": 468.0
+      },
+      {
+        "prev_read_date": "2026-02-04",
+        "curr_read_date": "2026-03-02",
+        "kwh": 4100,
+        "amount": 850.0
+      }
+    ]
+  },
+
+  {
+    "id": "0123457",
+    "account": "ACC-0001",
+    "service_location": "13 Main st.",
+    "metrics": [
+      {
+        "prev_read_date": "2026-01-02",
+        "curr_read_date": "2026-02-03",
+        "kwh": 2200,
+        "amount": 368.0
+      },
+      {
+        "prev_read_date": "2026-02-03",
+        "curr_read_date": "2026-03-06",
+        "kwh": 3400,
+        "amount": 430.0
+      }
+    ]
+  },
+
+  {
+    "id": "0123458",
+    "account": "ACC-1011",
+    "service_location": "137 North st.",
+    "metrics": [
+      {
+        "prev_read_date": "2026-01-08",
+        "curr_read_date": "2026-02-13",
+        "kwh": 4900,
+        "amount": 568.0
+      },
+      {
+        "prev_read_date": "2026-02-08",
+        "curr_read_date": "2026-03-13",
+        "kwh": 4850,
+        "amount": 518.0
+      }
+    ]
+  }
+]
