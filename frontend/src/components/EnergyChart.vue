@@ -84,6 +84,20 @@ export default {
         const exactDates = `${item.prev_read_date} – ${item.curr_read_date}`
         const startDate = parseLocalDate(item.prev_read_date)
         const endDate = parseLocalDate(item.curr_read_date)
+        /*
+        In order to calculate days with a startDate object and endDate object we have to 
+        convert the difference, which in JavaScript is in milliseconds, to days. One day is
+        86,400,000 ms, so the following formula is used.
+        
+        Days = (startDate / endDate) / 86,400,000 
+        or
+        Days = (startDate / endDate) / (1000 * 60 * 60 * 24)
+                                      ms/second | sec/min | min/hr | hr/day
+        
+        Math.round() rounds the day count to the nearest whole day
+        Math.max(1, ..) uses 1 as minimum value so the billing period is never 0 or negative
+
+         */
         const days =
           item.days ||
           (startDate && endDate
