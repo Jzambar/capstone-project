@@ -2,19 +2,17 @@
   {
     "id": "0123456",
     "account": "ACC-1001",
-    "service_location": "1370 Windwood st.",
+    "service_location": "Hwy 7n & Reasoner Lane Station #3, Russellville, AR 72801",
     "metrics": [
       {
-        "prev_read_date": "2026-01-05",
-        "curr_read_date": "2026-02-04",
-        "kwh": 3900,
-        "amount": 468.0
+        "prev_read_date": "2023-11-16",
+        "curr_read_date": "2023-12-08",
+        "kwh": 6511
       },
       {
-        "prev_read_date": "2026-02-04",
-        "curr_read_date": "2026-03-02",
-        "kwh": 4100,
-        "amount": 850.0
+        "prev_read_date": "2024-04-18",
+        "curr_read_date": "2024-03-02",
+        "kwh": 4100
       }
     ]
   },
@@ -27,14 +25,12 @@
       {
         "prev_read_date": "2026-01-02",
         "curr_read_date": "2026-02-03",
-        "kwh": 2200,
-        "amount": 368.0
+        "kwh": 2200
       },
       {
         "prev_read_date": "2026-02-03",
         "curr_read_date": "2026-03-06",
-        "kwh": 3400,
-        "amount": 430.0
+        "kwh": 3400
       }
     ]
   },
@@ -47,14 +43,12 @@
       {
         "prev_read_date": "2026-01-08",
         "curr_read_date": "2026-02-13",
-        "kwh": 4900,
-        "amount": 568.0
+        "kwh": 4900
       },
       {
         "prev_read_date": "2026-02-08",
         "curr_read_date": "2026-03-13",
-        "kwh": 4850,
-        "amount": 518.0
+        "kwh": 4850
       }
     ]
   }
